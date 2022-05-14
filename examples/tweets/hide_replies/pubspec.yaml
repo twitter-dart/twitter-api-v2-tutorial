@@ -1,0 +1,13 @@
+name: hide_replies
+description: A sample command-line application.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  twitter_api_v2: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
