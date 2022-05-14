@@ -19,6 +19,9 @@ OAuth 2.0. You can use the Authorization Code with PKCE grant flow to do so.
 To use this endpoint you must pass in the scopes tweet.read, users.read, and
 bookmark.write.
 
+- [createBookmark](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/createBookmark.html)
+- [destroyBookmark](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/destroyBookmark.html)
+
 ## Bookmarks lookup
 
 The Bookmarks lookup endpoint has one method available, GET.
@@ -35,6 +38,8 @@ endpoints, you must authenticate by generating a user Access Token with
 OAuth 2.0. You can use the Authorization Code with PKCE grant flow to do so.
 To use this endpoint you must pass in the scopes tweet.read, users.read, and
 bookmark.read.
+
+- [lookupBookmarks](https://pub.dev/documentation/twitter_api_v2/latest/twitter_api_v2/TweetsService/lookupBookmarks.html)
 
 ## More Information
 
