@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   final dashbook = Dashbook(
-    title: 'Getting Started',
+    title: 'Tutorial for twitter_api_v2',
   );
 
   dashbook
@@ -45,6 +45,34 @@ void main() {
           ),
         )
     ..storiesOf('Compliance Service').decorator(CenterDecorator()).add(
+          'default',
+          (ctx) => ElevatedButton(
+            child: const Text('Ok'),
+            onPressed: () {},
+          ),
+        )
+    ..storiesOf('Using Expansions').decorator(CenterDecorator()).add(
+          'default',
+          (ctx) => ElevatedButton(
+            child: const Text('Ok'),
+            onPressed: () {},
+          ),
+        )
+    ..storiesOf('Using Fields').decorator(CenterDecorator()).add(
+          'default',
+          (ctx) => ElevatedButton(
+            child: const Text('Ok'),
+            onPressed: () {},
+          ),
+        )
+    ..storiesOf('Stream with Flutter').decorator(CenterDecorator()).add(
+          'default',
+          (ctx) => ElevatedButton(
+            child: const Text('Ok'),
+            onPressed: () {},
+          ),
+        )
+    ..storiesOf('Tips').decorator(CenterDecorator()).add(
           'default',
           (ctx) => ElevatedButton(
             child: const Text('Ok'),
